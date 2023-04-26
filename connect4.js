@@ -20,7 +20,7 @@ new Vue({
     canPlay: false,
   }),
   async mounted() {
-    await Swal.fire("Connect 4 game", "info");
+    await Swal.fire("Connect 4", "Good luck! 😼");
     this.resetGame();
   },
   methods: {
